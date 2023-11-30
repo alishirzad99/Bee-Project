@@ -1,9 +1,10 @@
+
 import numpy as np
 from keras.preprocessing import image
 from keras.models import load_model  # Import load_model directly from keras.models
 
 model_path = 'primarly_test.h5'
-
+# it is just for test to see if it works
 # Load the model
 loaded_model = load_model(model_path, compile=False)
 loaded_model.load_weights('primarly_wights.h5')
